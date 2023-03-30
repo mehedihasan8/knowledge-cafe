@@ -2,3 +2,8 @@
   display: grid;
   grid-template-columns: 3fr 1.5fr;
 }
+@media (max-width: 567px) {
+  .home-container {
+    grid-template-columns: 1fr;
+  }
+}

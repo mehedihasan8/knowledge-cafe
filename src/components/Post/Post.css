@@ -6,7 +6,7 @@
 .post {
   margin: 30px 15px;
   width: 845px;
-  height: 783px;
+  height: 700px;
 }
 .post-info {
   padding: 15px;
@@ -41,4 +41,11 @@
 .btn-more {
   margin: 0 15px;
   background-color: rgb(178, 209, 236);
+}
+@media (max-width: 567px) {
+  .post {
+    margin: 0;
+    width: auto;
+    height: auto;
+  }
 }

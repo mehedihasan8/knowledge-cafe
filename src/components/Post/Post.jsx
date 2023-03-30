@@ -1,6 +1,10 @@
 import React from "react";
 import "./Post.css";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBookBookmark,
+  faAddressBook,
+} from "@fortawesome/free-solid-svg-icons";
 const Post = ({ post }) => {
   console.log(post);
   return (
@@ -15,7 +19,12 @@ const Post = ({ post }) => {
           </div>
         </div>
         <div className="">
-          <p>5 min red..</p>
+          <p>
+            5 min red..{" "}
+            <span>
+              <FontAwesomeIcon icon={faBookBookmark} />
+            </span>
+          </p>
         </div>
       </div>
       <p className="hastag">
