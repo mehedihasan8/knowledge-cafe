@@ -1,6 +1,6 @@
 #root {
   max-width: 1250px;
-  padding: 2rem;
+  margin: auto;
 }
 
 .logo {
@@ -38,6 +38,6 @@
 .read-the-docs {
   color: #888;
 }
-.hr {
+.App hr {
   margin: 15px;
 }

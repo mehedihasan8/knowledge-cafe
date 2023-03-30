@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "minutes": 5,
+    "picture": "https://img.a.transfermarkt.technology/portrait/big/28003-1671435885.jpg?lm=1&fbclid=IwAR3SG-JKYVvaNVNpO7eBxUFX1fAwG__rcLNeLvI8ZigbReuH_e7-7ma0ax4",
+    "baner": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80&fbclid=IwAR2XtB5M0S549hgq6cLsf7C85QRamTue5ba7HW3Bp0bZWJv-rkxpUYS1vso",
+    "age": 28,
+    "name": "Fields Sexton",
+    "about": "How to get your first job as a self-taught programmer"
+  },
+  {
+    "id": 2,
+    "minutes": 10,
+    "picture": "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Ftherealchamps.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1468331847-850x560.jpeg?fbclid=IwAR2hyIe2gbZvLHIBv2NmefWH-vWKd2pfw3cOcIL3_VAPzh5mWGuLWV-9QjE",
+    "baner": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=740&t=st=1680191611~exp=1680192211~hmac=0874e84e5a50d00d58906a6780eda4100204d8437c0f6fde9aad7649eb8cfd97",
+    "age": 25,
+    "name": "Farley Reynolds",
+    "about": "How to get your first job as a self-taught programmer"
+  },
+  {
+    "id": 3,
+    "minutes": 15,
+    "picture": "https://t1.gstatic.com/licensed-image?q=tbn%3AANd9GcRbFGA177nqWs00jR60MLVe8tqgEWMHjSbjVWuKNMQbTwpfki0Np3n7My7ZGDRamjMlmboWBkacAqNGZoQ&fbclid=IwAR1nPNpXYWMaLMC69P9oElmD65uIXRAX7DZobVo0cug_pthfoucTuPQIcok",
+    "baner": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60&fbclid=IwAR2oK9hdOD8xanbjVD5Pd9deRIXjiClDASwnOPtZbKv_6BwNpqdeH7lVu6g",
+    "age": 39,
+    "name": "Arline Molina",
+    "about": "How to get your first job as a self-taught programmer"
+  },
+  {
+    "id": 4,
+    "minutes": 20,
+    "picture": "https://b.fssta.com/uploads/application/soccer/headshots/713.vresize.350.350.medium.34.png?fbclid=IwAR3KK9Gro8uFSoS7PmoYc-ns_b-_BoupS3NNL5q_cZuPPRj2vh5kvdMG3IQ",
+    "baner": "https://plus.unsplash.com/premium_photo-1661270437172-97ae8d858a80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60&fbclid=IwAR2apeobdeOxX3r85F59JFVBHL0DVj6ZBwVLkiuZOu0sIt2xj7avn8c8i_8",
+    "age": 32,
+    "name": "Barber Hammond",
+    "about": "How to get your first job as a self-taught programmer"
+  }
+]
