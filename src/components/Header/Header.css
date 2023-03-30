@@ -1,0 +1,29 @@
+.header-container {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container a {
+  margin-left: 25px;
+}
+.header-container a:hover {
+  color: red;
+  font-size: 1.25rem;
+}
+.nav-title {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+@media (max-width: 567px) {
+  .header-container {
+    flex-direction: column;
+    padding: 15px 0;
+    margin-bottom: 15px 0;
+  }
+  .header-items a {
+    text-align: center;
+    margin: 15px 0;
+    display: block;
+  }
+}
