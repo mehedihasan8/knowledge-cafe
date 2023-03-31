@@ -6,7 +6,9 @@
     "baner": "./Rectangle.png",
     "age": 28,
     "name": "Messi",
-    "about": "How to get your first job as a self-taught programmer"
+    "about": "The Beautiful Game: Exploring the Passion and Power of Football",
+    "publisht_in": "Dec /25/ 2008",
+    "publisht_date": 10
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "baner": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=740&t=st=1680191611~exp=1680192211~hmac=0874e84e5a50d00d58906a6780eda4100204d8437c0f6fde9aad7649eb8cfd97",
     "age": 25,
     "name": "Mohamed Salah",
-    "about": "How to get your first job as a self-taught programmer"
+    "about": "How to get your first job as a self-taught programmer",
+    "publisht_in": "Mar /20/ 2001",
+    "publisht_date": 4
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@
     "baner": "./Rectangle-2.png",
     "age": 39,
     "name": "Arline Molina",
-    "about": "How to get your first job as a self-taught programmer"
+    "about": "What is Digital Marketing ?",
+    "publisht_in": "Jan /15/ 2008",
+    "publisht_date": 8
   },
   {
     "id": 4,
@@ -33,6 +39,8 @@
     "baner": "./Rectangle-3.png",
     "age": 32,
     "name": "Neymar",
-    "about": "How to get your first job as a self-taught programmer"
+    "about": "Mastering Programming : From Beginner to Expert",
+    "publisht_in": "Sep /10/ 2010",
+    "publisht_date": 15
   }
 ]

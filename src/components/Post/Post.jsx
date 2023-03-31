@@ -1,12 +1,8 @@
 import React from "react";
 import "./Post.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBookBookmark,
-  faAddressBook,
-} from "@fortawesome/free-solid-svg-icons";
-const Post = ({ post }) => {
-  console.log(post);
+import { faBookBookmark } from "@fortawesome/free-solid-svg-icons";
+const Post = ({ post, handelbookmark, handelReadTime }) => {
   return (
     <div className="post">
       <img className="post-banner-img" src={post.baner} alt="" />
@@ -15,13 +11,15 @@ const Post = ({ post }) => {
           <img className="auther-img" src={post.picture} alt="" />
           <div>
             <h3>{post.name}</h3>
-            <p>Mar 14 (4 Days ago)</p>
+            <p>
+              {post.publisht_in} ( {post.publisht_date} Days ago )
+            </p>
           </div>
         </div>
         <div className="">
           <p>
-            5 min red..{" "}
-            <span>
+            {post.minutes} min red ..
+            <span onClick={() => handelbookmark(post)}>
               <FontAwesomeIcon icon={faBookBookmark} />
             </span>
           </p>
@@ -31,7 +29,9 @@ const Post = ({ post }) => {
         <small>#beginners </small> <small>#programming</small>
       </p>
       <h1 className="post-title">{post.about}</h1>
-      <button className="btn-more">Mark as read...</button>
+      <button onClick={() => handelReadTime(post)} className="btn-more">
+        Mark as read...
+      </button>
     </div>
   );
 };
