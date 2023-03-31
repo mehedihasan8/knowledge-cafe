@@ -18,3 +18,8 @@
   margin-right: 15px;
   padding: 25px;
 }
+@media (max-width: 567px) {
+  .spend-time {
+    margin: 20px 5px;
+  }
+}
