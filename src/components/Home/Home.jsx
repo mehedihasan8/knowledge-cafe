@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Post from "../Post/Post";
 import Side from "../Side/Side";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "./Home.css";
 
 const Home = () => {
