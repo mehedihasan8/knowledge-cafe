@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Post from "../Post/Post";
 import Side from "../Side/Side";
+import { ToastContainer, toast } from "react-toastify";
 import "./Home.css";
 
 const Home = () => {
@@ -19,7 +20,12 @@ const Home = () => {
   };
   const handelbookmark = (post) => {
     const newCard = [...card, post];
-    setCard(newCard);
+    if (card.includes(post)) {
+      toast.warning("You Have Already Bookmarked This Blog");
+      setCard(newCard);
+    } else {
+      setCard(newCard);
+    }
   };
   return (
     <dir className="home-container">

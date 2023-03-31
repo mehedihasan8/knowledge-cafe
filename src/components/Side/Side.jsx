@@ -1,5 +1,6 @@
 import React from "react";
 import BookmarkTitle from "../BookmarkTitle/BookmarkTitle";
+
 import "./Side.css";
 const Side = ({ card, time }) => {
   //   console.log(card);

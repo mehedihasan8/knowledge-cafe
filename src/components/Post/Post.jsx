@@ -1,7 +1,7 @@
 import React from "react";
 import "./Post.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookBookmark } from "@fortawesome/free-solid-svg-icons";
+import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 const Post = ({ post, handelbookmark, handelReadTime }) => {
   return (
     <div className="post">
@@ -20,7 +20,7 @@ const Post = ({ post, handelbookmark, handelReadTime }) => {
           <p>
             {post.minutes} min red ..
             <span onClick={() => handelbookmark(post)}>
-              <FontAwesomeIcon icon={faBookBookmark} />
+              <FontAwesomeIcon icon={faBookmark} />
             </span>
           </p>
         </div>
