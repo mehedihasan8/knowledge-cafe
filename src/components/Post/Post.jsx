@@ -18,7 +18,7 @@ const Post = ({ post, handelbookmark, handelReadTime }) => {
         </div>
         <div className="">
           <p>
-            {post.minutes} min red ..
+            {post.minutes} min red .
             <span onClick={() => handelbookmark(post)}>
               <FontAwesomeIcon icon={faBookmark} />
             </span>

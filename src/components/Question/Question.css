@@ -1,10 +1,19 @@
-.question-conatinaer {
-  margin: 30px 0;
-  padding: 20px;
+.questions-container {
+  margin: 50px 35px;
 }
-.first-question {
+.questions-container span {
+  font-weight: 500;
+}
+.questions-container p {
   line-height: 30px;
 }
-.question-title {
-  margin: 40px 0;
+.questions-container h2,
+h4 {
+  margin: 15px 0;
+}
+
+@media (max-width: 576px) {
+  .questions-container {
+    margin: 40px 15px;
+  }
 }

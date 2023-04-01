@@ -48,4 +48,12 @@
     width: auto;
     height: auto;
   }
+  .post-banner-img {
+    width: 98%;
+    padding: 0px;
+    height: 400px;
+    margin: 40px 5px 20px 5px;
+    border: 1px solid red;
+    border-radius: 25px;
+  }
 }
