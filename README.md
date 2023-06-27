@@ -11,7 +11,7 @@
 
 ## Live Link
 
-- Hosted in Netlify -> [Programmign Cafe](https://chimerical-wisp-8535d7.netlify.app/)
+- Hosted in Netlify -> [Programmign Cafe](https://beautiful-tarsier-4ea831.netlify.app/)
 
 ## Installation
 
